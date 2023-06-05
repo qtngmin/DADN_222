@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">973447188848-7j8462v7qbph3vats75bid41pbt9d2a3.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">973447188848</string>
+    <string name="google_api_key" translatable="false">AIzaSyDiM2-wpHjuUlEwjmHZ9fptNOwGSQCXo2g</string>
+    <string name="google_app_id" translatable="false">1:973447188848:android:81849de12fd9835fceffb5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDiM2-wpHjuUlEwjmHZ9fptNOwGSQCXo2g</string>
+    <string name="google_storage_bucket" translatable="false">fir-iot-note10plus.appspot.com</string>
+    <string name="project_id" translatable="false">fir-iot-note10plus</string>
+</resources>

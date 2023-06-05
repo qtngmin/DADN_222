@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="hm.iot.iotnote10plus"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="21" />
+9-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:11:22-76
+18
+19    <application
+19-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:13:5-44:19
+20        android:allowBackup="true"
+20-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:14:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\qtngm\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:16:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:18:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.DemoIoTNote10Plus" >
+28-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:19:9-55
+29        <activity
+29-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:20:9-22:39
+30            android:name="hm.iot.iotnote10plus.LoginActivity"
+30-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:21:13-42
+31            android:exported="true" />
+31-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:22:13-36
+32        <activity
+32-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:23:9-31:20
+33            android:name="hm.iot.iotnote10plus.SignUpActivity"
+33-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:24:13-43
+34            android:exported="true" >
+34-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:25:13-36
+35            <intent-filter>
+35-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:27:17-69
+36-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:29:17-77
+38-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:32:9-40:20
+42            android:name="hm.iot.iotnote10plus.MainActivity"
+42-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:33:13-41
+43            android:exported="false" >
+43-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:34:13-37
+44            <intent-filter>
+44-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:26:13-30:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:27:17-69
+45-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:27:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:29:17-77
+47-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:29:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="hm.iot.iotnote10plus.PlotActivity" />
+50-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:41:9-50
+50-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:41:19-47
+51
+52        <service android:name="org.eclipse.paho.android.service.MqttService" />
+52-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:43:9-80
+52-->C:\Users\qtngm\AndroidStudioProjects\DADN_IOT\app\src\main\AndroidManifest.xml:43:18-77
+53
+54        <activity
+54-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+55            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+55-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+56            android:excludeFromRecents="true"
+56-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+57            android:exported="true"
+57-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+58            android:launchMode="singleTask"
+58-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+59-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+60            <intent-filter>
+60-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+61-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+63-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+64-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+65
+66                <data
+66-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+67                    android:host="firebase.auth"
+67-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+68                    android:path="/"
+68-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+69                    android:scheme="genericidp" />
+69-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+73            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+73-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+74            android:excludeFromRecents="true"
+74-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+75            android:exported="true"
+75-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+76            android:launchMode="singleTask"
+76-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+77-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+78            <intent-filter>
+78-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+79-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+81-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+82-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+83
+84                <data
+84-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+85                    android:host="firebase.auth"
+85-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+86                    android:path="/"
+86-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+87                    android:scheme="recaptcha" />
+87-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+88            </intent-filter>
+89        </activity>
+90
+91        <service
+91-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:64:9-70:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:65:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:66:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\qtngm\.gradle\caches\transforms-3\6e9a99792b0a1f3f2adb8a68f86c3ad5\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+98        </service>
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+102            android:authorities="hm.iot.iotnote10plus.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+104            android:exported="false"
+104-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+105            android:initOrder="100" />
+105-->[com.google.firebase:firebase-common:20.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\ad73b41a50d49ad0b4025ac63d0e7dee\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\qtngm\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\998f6cbdc4c44c85ed633c1dc853989c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\998f6cbdc4c44c85ed633c1dc853989c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\998f6cbdc4c44c85ed633c1dc853989c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+118            android:authorities="hm.iot.iotnote10plus.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\qtngm\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qtngm\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qtngm\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\qtngm\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+126        </provider>
+127    </application>
+128
+129</manifest>
